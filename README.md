@@ -1,1 +1,7 @@
 # Historical-Stock-Analysis
+
+In this project I use Python - and specifically it's libraries Pandas, Matplotlib and NumPy - in order to run historical analyses on the S&P 500 listed stocks of Apple, Amazon, and Netflix. I also use LaTeX to code the mathematical formulae used in this project.
+
+I import the stock data (High, Low, Open, Close, Volume and Adj Close) for the 5-year period from 1/1/2015 to 31/12/19 into a DataFrame, which is then be used to assign data to variables as well as perform common financial calculations, and plot the data in a variety of different formats in order to compare the stocks with each other and the market index itself.
+
+Key measures like returns and volatility are measured using Pandas and Numpy, and then the data is visualised using Matplotlib, to give a clear picture from which deductions and inferences can be made. Major events will be analysed, and correlation will be measured in order to understand how the stocks move in relation to each other. An Ordinary Least-Squares (OLS) Regression is also performed and plotted, using Pandas and Statsmodels, in order to understand in-depth the correlation between a pair of stocks and their returns. Finally, I will look at the performance of an equally-weighted portfolio of the three selected stocks, and visualise and compare it with that of the individual stocks, in order to understand how holding all three would compare to holding any one.
